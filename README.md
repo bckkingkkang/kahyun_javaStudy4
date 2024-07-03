@@ -24,3 +24,7 @@
 - 참조 타입 변수는 힙 영역의 객체를 참조하지 않는다는 뜻으로 null 값을 가질 수 있다.
 - null 값도 초기값으로 사용할 수 있기 때문에 null로 초기화된 참조 변수는 스택 영역에 생성된다.
 - 참조 타입 변수가 null 값을 가지는지 확인하려면 `==`, `!=` 연산 수행
+
+## new 연산자
+![photo_2024-07-03_15-24-17](https://github.com/bckkingkkang/kahyun_javaStudy4/assets/131218470/f948eb29-d1b3-4098-8d4f-4ef266cdadbd)
+
