@@ -28,3 +28,5 @@
 ## new 연산자
 ![photo_2024-07-03_15-24-17](https://github.com/bckkingkkang/kahyun_javaStudy4/assets/131218470/f948eb29-d1b3-4098-8d4f-4ef266cdadbd)
 
+## 다차원 배열
+![photo_2024-07-03_15-46-37](https://github.com/bckkingkkang/kahyun_javaStudy4/assets/131218470/609189a7-c2d6-4444-b2f3-81e837fc5c37)
