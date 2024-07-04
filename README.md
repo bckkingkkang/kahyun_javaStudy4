@@ -1,5 +1,7 @@
 # kahyun_javaStudy4
 
+# [참조타입](https://github.com/bckkingkkang/kahyun_javaStudy4/wiki/%EC%B0%B8%EC%A1%B0%ED%83%80%EC%9E%85)
+
 ## 참조 타입과 참조 변수
 - 객체(Object)의 번지를 참조하는 타입, 메모리의 번지를 변수 안에 저장
 - 배열, 열거, 클래스, 인터페이스
