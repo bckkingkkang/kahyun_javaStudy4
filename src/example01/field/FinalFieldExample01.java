@@ -1,4 +1,4 @@
-package java.src.class06.field;
+package example01.field;
 
 public class FinalFieldExample01 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package java.src.class06.singleton;
+package example01.singleton;
 
 public class Singleton {
     private static Singleton singleton = new Singleton();

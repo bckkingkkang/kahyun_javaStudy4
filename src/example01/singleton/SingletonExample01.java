@@ -1,4 +1,4 @@
-package java.src.class06.singleton;
+package example01.singleton;
 
 public class SingletonExample01 {
 

@@ -1,4 +1,4 @@
-package java.src.class06.field;
+package example01.field;
 
 public class Person {
     final String nation = "KOREA";
