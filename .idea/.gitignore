@@ -60,7 +60,6 @@ replay_pid*
 *.wat
 *.xhtml
 
-
 ### Gradle ###
 .gradle
 **/build/
@@ -87,7 +86,8 @@ gradle-app.setting
 ### Gradle Patch ###
 # Java heap dump
 *.hprof
-
 *.kts
 
-
+./production/
+production/
+D/kahyun_javaStudy4/production/
