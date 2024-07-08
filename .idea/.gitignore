@@ -87,7 +87,3 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 *.kts
-
-./production/
-production/
-D/kahyun_javaStudy4/production/
