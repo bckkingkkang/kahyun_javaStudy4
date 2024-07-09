@@ -1,4 +1,4 @@
-package example01.field;
+package example01.finalfield;
 
 public class Person {
     final String nation = "KOREA";

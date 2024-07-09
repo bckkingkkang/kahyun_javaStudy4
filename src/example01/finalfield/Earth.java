@@ -1,4 +1,4 @@
-package example01.field;
+package example01.finalfield;
 
 public class Earth {
     static final double EARTH_RADIUS = 6400;
