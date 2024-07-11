@@ -7,3 +7,4 @@
 -----------------------------
 # 컴퓨터 구조, 네트워크
 ### [컴퓨터 구조](https://github.com/bckkingkkang/kahyun_javaStudy4/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B5%AC%EC%A1%B0)
+### [네트워크](https://github.com/bckkingkkang/kahyun_javaStudy4/wiki/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
