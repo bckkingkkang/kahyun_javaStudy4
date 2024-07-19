@@ -10,3 +10,14 @@
 # 컴퓨터 구조, 네트워크
 ### [컴퓨터 구조](https://github.com/bckkingkkang/kahyun_javaStudy4/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B5%AC%EC%A1%B0)
 ### [네트워크](https://github.com/bckkingkkang/kahyun_javaStudy4/wiki/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
+
+-----------------------------------------------
+# 이미지 드래그 앤 드롭
+
+### DB
+![image](https://github.com/user-attachments/assets/a97c4e0c-aef7-4606-9236-c84740144656)
+
+### 참고
+https://inpa.tistory.com/entry/%EB%93%9C%EB%9E%98%EA%B7%B8-%EC%95%A4-%EB%93%9C%EB%A1%AD-Drag-Drop-%EA%B8%B0%EB%8A%A5
+https://marshallku.com/dev/css-grid%EB%A1%9C-masonry-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EB%A7%8C%EB%93%A4%EA%B8%B0
+https://medium.com/@iamkjw/react-drag-drop%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%88%9C%EC%84%9C-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0-415e348e2855
