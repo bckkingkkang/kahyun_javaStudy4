@@ -14,6 +14,9 @@
 -----------------------------------------------
 # 이미지 드래그 앤 드롭
 
+### 실행 화면
+![image](https://github.com/user-attachments/assets/b4f47b12-34f0-4c4b-9d4f-45cd0745290c)
+
 ### DB
 ![image](https://github.com/user-attachments/assets/a97c4e0c-aef7-4606-9236-c84740144656)
 
