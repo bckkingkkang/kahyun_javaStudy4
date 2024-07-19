@@ -62,27 +62,27 @@
             <%-- status.index(항목 순서)를 5로 나누었을 때를 기준으로 사진 크기 달라짐 --%>
             <c:when test="${status.index % 5 == 0}">
                 <div class="item size1" ondrop="drop(event,${image.seq}, ${status.index+1})" ondragover="dragEnter(event)">
-                    <img id="${image.seq}" src="/image/${image.image_name}" draggable="true" ondragstart="drag(event, ${image.location_num})" name="${image.location_num}">
+                    <img id="${image.seq}" src="/image/${image.image_name}" draggable="true" ondragstart="drag(event, ${image.location_num})">
                 </div>
             </c:when>
             <c:when test="${status.index % 5 == 1}">
                 <div class="item size2" ondrop="drop(event,${image.seq}, ${status.index+1})" ondragover="dragEnter(event)">
-                    <img id="${image.seq}" src="/image/${image.image_name}" draggable="true" ondragstart="drag(event, ${image.location_num})" name="${image.location_num}">
+                    <img id="${image.seq}" src="/image/${image.image_name}" draggable="true" ondragstart="drag(event, ${image.location_num})">
                 </div>
             </c:when>
             <c:when test="${status.index % 5 == 2}">
                 <div class="item size3" ondrop="drop(event,${image.seq}, ${status.index+1})" ondragover="dragEnter(event)">
-                    <img id="${image.seq}" src="/image/${image.image_name}" draggable="true" ondragstart="drag(event, ${image.location_num})" name="${image.location_num}">
+                    <img id="${image.seq}" src="/image/${image.image_name}" draggable="true" ondragstart="drag(event, ${image.location_num})">
                 </div>
             </c:when>
             <c:when test="${status.index % 5 == 3}">
                 <div class="item size4" ondrop="drop(event,${image.seq}, ${status.index+1})" ondragover="dragEnter(event)">
-                    <img id="${image.seq}" src="/image/${image.image_name}" draggable="true" ondragstart="drag(event, ${image.location_num})" name="${image.location_num}">
+                    <img id="${image.seq}" src="/image/${image.image_name}" draggable="true" ondragstart="drag(event, ${image.location_num})">
                 </div>
             </c:when>
             <c:otherwise>
                 <div class="item size5" ondrop="drop(event,${image.seq}, ${status.index+1})" ondragover="dragEnter(event)">
-                    <img id="${image.seq}" src="/image/${image.image_name}" draggable="true" ondragstart="drag(event, ${image.location_num})" name="${image.location_num}">
+                    <img id="${image.seq}" src="/image/${image.image_name}" draggable="true" ondragstart="drag(event, ${image.location_num})">
                 </div>
             </c:otherwise>
         </c:choose>
@@ -102,9 +102,11 @@
     var dragged_num;
 
     /* drag(ev) : 드래그가 시작될 때 호출, 드래그된 요소의 ID를 데이터 전송 객체에 저장 */
-    function drag(ev) {
+    function drag(ev, num) {
         ev.dataTransfer.setData("text", ev.target.id);
-        dragged_num = ev.target.name;
+        // dragged_num = ev.target.name;
+        dragged_num = num;
+        console.log(num);
         console.log("name : " + ev.target.name);
     }
 
