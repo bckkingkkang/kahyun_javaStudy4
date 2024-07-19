@@ -119,11 +119,11 @@
         // 해당 id를 가진 요소를 가져옴, 드래그된 요소
         var draggedElement = document.getElementById(data);
 
-        console.log("*******************************")
+        /*console.log("*******************************")
         console.log("드래그된 자리의 seq : "+ data);
         console.log("드래그된 seq의 index : " +dragged_num);
         console.log("드롭된 자리의 seq : " + image_seq);
-        console.log("드롭된 seq의 index : " + index);
+        console.log("드롭된 seq의 index : " + index);*/
 
         $.ajax({
             url : "/change_image",
