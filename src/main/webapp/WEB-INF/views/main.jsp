@@ -90,24 +90,20 @@
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript">
-    /*
-        dragEnter(ev)
-        : 드래그된 요소가 드롭 영역으로 들어왔을 때 호출
-    */
+
+    // 드래그된 seq의 현재 자리(index) 저장
+    var dragged_num;
+
+    // dragEnter(ev) : 드래그된 요소가 드롭 영역으로 들어왔을 때 호출
     function dragEnter(ev) {
-        /* 이벤트 전파 방지(브라우저의 기본 동작 실행 X) */
+        // 이벤트 전파 방지(브라우저의 기본 동작 실행 X)
         ev.preventDefault();
     }
 
-    var dragged_num;
-
-    /* drag(ev) : 드래그가 시작될 때 호출, 드래그된 요소의 ID를 데이터 전송 객체에 저장 */
+    // drag(ev) : 드래그가 시작될 때 호출, 드래그된 요소의 ID를 데이터 전송 객체에 저장
     function drag(ev, num) {
         ev.dataTransfer.setData("text", ev.target.id);
-        // dragged_num = ev.target.name;
         dragged_num = num;
-        console.log(num);
-        console.log("name : " + ev.target.name);
     }
 
     /* drop(ev) : 드롭될 때 호출, 드래그된 요소와 대상 요소를 서로 교환하여 드래그 앤 드롭 기능 구현 */
@@ -116,16 +112,8 @@
         ev.preventDefault();
         // 드래그 시작 시 저장된 데이터를 가져옴, 데이터는 'drag' 이벤트 핸들러에서 설정한 드래그된 요소의 id
         var data = ev.dataTransfer.getData("text");
-        console.log(dragged_num);
-
         // 해당 id를 가진 요소를 가져옴, 드래그된 요소
         var draggedElement = document.getElementById(data);
-
-        /*console.log("*******************************")
-        console.log("드래그된 자리의 seq : "+ data);
-        console.log("드래그된 seq의 index : " +dragged_num);
-        console.log("드롭된 자리의 seq : " + image_seq);
-        console.log("드롭된 seq의 index : " + index);*/
 
         $.ajax({
             url : "/change_image",
