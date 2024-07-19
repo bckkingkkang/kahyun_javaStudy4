@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.imagedrag.mapper.ImageMapper">
+
+    <select id="getList">
+        SELECT *
+        FROM image
+        ORDER BY location_num
+    </select>
+
+    <update id="droppedImage">
+        UPDATE image
+        SET location_num = #{dragged_num}
+        WHERE seq = #{dropped_seq}
+    </update>
+    <update id="draggedImage">
+        UPDATE image
+        SET location_num = #{dropped_num}
+        WHERE seq = #{dragged_seq}
+    </update>
+</mapper>
