@@ -17,6 +17,12 @@
 ### 실행 화면
 ![image](https://github.com/user-attachments/assets/b4f47b12-34f0-4c4b-9d4f-45cd0745290c)
 
+
+
+https://github.com/user-attachments/assets/f5619074-fbe9-4497-9ddc-a88f1cde8a29
+
+
+
 ### DB
 ![image](https://github.com/user-attachments/assets/a97c4e0c-aef7-4606-9236-c84740144656)
 
