@@ -10,6 +10,8 @@
 # 컴퓨터 구조, 네트워크
 ### [컴퓨터 구조](https://github.com/bckkingkkang/kahyun_javaStudy4/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B5%AC%EC%A1%B0)
 ### [네트워크](https://github.com/bckkingkkang/kahyun_javaStudy4/wiki/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
+-----------------------------
+# 자료구조
 ### [자료구조 기초 개념 - 선형 데이터 구조 1 (스택, 큐)](https://github.com/bckkingkkang/kahyun_javaStudy4/wiki/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EA%B8%B0%EC%B4%88-%EA%B0%9C%EB%85%90-%E2%80%90-%EC%84%A0%ED%98%95-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B5%AC%EC%A1%B0-1-(%EC%8A%A4%ED%83%9D,-%ED%81%90))
 ### [자료구조 기초 개념 - 선형 데이터 구조 2 (연결리스트, 해싱, 힙)](https://github.com/bckkingkkang/kahyun_javaStudy4/wiki/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EA%B8%B0%EC%B4%88-%EA%B0%9C%EB%85%90-%E2%80%90-%EC%84%A0%ED%98%95-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B5%AC%EC%A1%B0-2-(%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8,-%ED%95%B4%EC%8B%B1,-%ED%9E%99))
 
